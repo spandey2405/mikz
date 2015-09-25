@@ -3,8 +3,12 @@ require 'connect/connect.php';
 $data['success'] = 0;
 if(isset($_GET["p"]))
 {
+<<<<<<< HEAD
+    $p = htmlspecialchars($_GET["p"]);
+	//checking conflict
+=======
    // $p = htmlspecialchars($_GET["p"]);
-
+>>>>>>> fdda87f373e53a3eed408d103f0c5d24a08f1b42
 }
 else
 {
