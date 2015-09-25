@@ -3,7 +3,7 @@ require 'connect/connect.php';
 $data['success'] = 0;
 if(isset($_GET["p"]))
 {
-   // $p = htmlspecialchars($_GET["p"]);
+   $p = htmlspecialchars($_GET["p"]);
 
 }
 else
