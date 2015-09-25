@@ -4,3 +4,5 @@ $username = [DB_USERNAME];
 $password = [DB_PASSWORD];
 $dbname = [DB_NAME];
 ?>
+
+// make a php file and as connect.php and store info into it

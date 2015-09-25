@@ -1,4 +1,2 @@
-/api.funnymiku.in/nbproject
-/api.funnymiku.in/v1.0
-/httpdocs/connect
-
+-f
+api.funnymiku.in/v1.0/connect/connect.php
