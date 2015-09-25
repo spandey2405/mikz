@@ -1,7 +1,7 @@
 <?php
 require 'connect/connect.php';
 require 'conf/conf.php';
-require 'keys/keys.php';
+require 'keys/key.php';
 $data['success'] = 0;
 if(isset($_GET["p"]))
 {
