@@ -1,0 +1,7 @@
+Mirror in progress since Thu, 01 Oct 2015 08:54:18 .. please wait!
+webhttrack -q -%i -w http://www.world-of-swiss.com/en -O "/home/sp/Desktop/mikz/swiss" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=7088
+UID=1000
+GID=1000
+START=1443669858

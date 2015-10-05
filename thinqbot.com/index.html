@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Thinqbot Technologies</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="stylesheet" href="assets/css/main.css" />
+                <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+                <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400italic' rel='stylesheet' type='text/css'>
+                    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+ 
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+  $("#scroll").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".slider_container").offset().top},
+        'slow');
+});
+</script>
+        </head>
+	<body class="landing">
+			<header id="header" class="alt">
+				<h1><a href="index.html">Make Time</a></h1>
+				<a href="#nav">Menu</a>
+			</header>
+            
+            <!--Menu Bar--> 
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav>     
+            
+            <!--Bar 1 , 1st Div-->
+            
+			<section id="banner">
+				<!--<i class="icon fa-diamond"></i>-->
+				<h2>Thinqbot Technologies</h2>
+				<p>Make Your Home Smarter</p>
+				<ul class="actions">
+					<li><a href="#" class="button big special" id="scroll">Read More</a></li>
+				</ul>
+			</section>     
+            
+            <!--Features Section-->
+            
+			<section id="one" class="wrapper style1">
+                            <center><h2 style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;margin-bottom: 20px">Features</h2></center>
+				<div class="inner">
+					<article class="feature left">
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+						<div class="content">
+							<h2>Security</h2>
+							<p>Newton keeps your house fully secure using the data from motion sensors, cameras, room temperature, and such other sensors. Our algorithms eliminate false positives by providing an additional layer of intelligence to the sensors. Newton keeps track of your valuable objects, pets or kids.</p>
+							<ul class="actions">
+								<li>
+									<a href="#" class="button alt">More</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="feature right">
+						<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+						<div class="content">
+							<h2>Savings</h2>
+							<p>Newton knows when to power off the appliances not in use. Optimization algorithms analyze the energy consumption patterns and help conserve up to 40% of electricity consumption. It also negates any stand-by power consumption from the appliances.</p>
+							<ul class="actions">
+								<li>
+									<a href="#" class="button alt">More</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="feature left">
+						<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+						<div class="content">
+							<h2>Comfort</h2>
+							<p>Newton integrates with the existing electrical layout and gives you universal control of all your electrical appliances. It transforms the way we interact with the physical objects around us by giving them a digital abstraction.</p>
+							<ul class="actions">
+								<li>
+									<a href="#" class="button alt">More</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="feature right">
+						<span class="image"><img src="images/pic04.jpg" alt="" /></span>
+						<div class="content">
+							<h2>Luxury</h2>
+							<p>Newton integrates with your social profile and delivers personalized suggestions based on your interests. Newton combines data from all your devices together, both 'smart' and 'dumb', that can be used to deliver actionable results for people and processes altogether.</p>
+							<ul class="actions">
+								<li>
+									<a href="#" class="button alt">More</a>
+								</li>
+							</ul>
+						</div>
+					</article>                                    
+				</div>
+			</section>  
+<center><h2 style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif; margin: 20px;">How it Works ?</h2></center>
+        <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<a href=""><img src="images/slider/1.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p style="font-size: 18px;font-family: 'Roboto Condensed', sans-serif;">Newton is built around three things: people, processes, and connectivity.
+We've been working tirelessly, researching, implementing and stabilizing the underlying technology which does all the awesome stuff.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="images/slider/2.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p style="font-size: 18px;font-family: 'Roboto Condensed', sans-serif;">Billions of transistors switching perfectly, those electrons exactly where they are needed, thousands of function calls executing the way they should. So many man-years of code and hardware design, gets worked up within an instant. Your house gets its own nervous system.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="images/slider/3.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p style="font-size: 18px;font-family: 'Roboto Condensed', sans-serif;">It starts by converting your raw physical environment into a digital ecosystem using sensors and actuators. Current sensors for appliances, notification sensors for doors and windows, IR blasters for TVs and air conditioners, environment sensors for motion, temperature, pressure and humidity; networked LED bulbs, video cameras and door locks.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="images/slider/4.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p style="font-size: 18px;font-family: 'Roboto Condensed', sans-serif;">The sensors are networked using IPv6 over 802.15.4 to a local gateway then and connected to the Internet via the WiFi router. This gives the advantage to operate in your personal area without Internet connectivity and remote access via the Internet. </p></div>
+                </div>
+	    	</li>
+	    </ul>
+	  </div>
+          
+   </div>
+
+			<section id="four" class="wrapper style2 special">
+				<div class="inner">
+					<header class="major narrow">
+						<h2 style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;">Get in touch</h2>
+						
+					</header>
+					<form action="#" method="POST">
+						<div class="container 75%">
+							<div class="row uniform 50%">
+								<div class="6u 12u$(xsmall)">
+									<input name="name" placeholder="Name" type="text" />
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<input name="email" placeholder="Email" type="email" />
+								</div>
+								<div class="12u$">
+									<textarea name="message" placeholder="Message" rows="4"></textarea>
+								</div>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" class="special" value="Submit" /></li>
+							<li><input type="reset" class="alt" value="Reset" /></li>
+						</ul>
+					</form>
+				</div>
+			</section>
+
+
+	</body>
+</html>

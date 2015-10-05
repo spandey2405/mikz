@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            // Init Skrollr
+var s = skrollr.init();
+ 
+// Refresh Skrollr after resizing our sections
+s.refresh($('.homeSlide'));
+</script>
+<style>
+    /* Slide 2 */
+#slide-2 .bcg {background-image:url('http://www.backgroundsy.com/file/large/blurry-particles-background.jpg')}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+#slide-4 .bcg {background-image:url('http://www.mrwallpaper.com/wallpapers/gradient-background.jpg')}
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+</style>
+    </head>
+<body>
+    <main>
+      
+<section id="slide-2" class="homeSlide">
+    <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+        <div class="hsContainer">
+            <div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0" data-anchor-target="#slide-1 h2">
+                <h2>Simple parallax scrolling is...</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="slide-4" class="homeSlide">
+    <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+        <div class="hsContainer">
+            <div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0" data-anchor-target="#slide-1 h2">
+                <h2>Simple parallax scrolling is...</h2>
+            </div>
+        </div>
+    </div>
+</section>
+         
+    </main>
+</body>
+</html>

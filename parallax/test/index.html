@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>hello.world.animate()</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    type="text/javascript"></script>
+<style type="text/css">
+#coolDiv {
+    position: absolute;
+    top: 0;
+    left:-500px;
+    width: 200px;
+    background-color: #ccc;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    // this way works fine for Firefox, but 
+    // Chrome and Safari can't do it.
+    $("#coolDiv").animate({"left":"0px"}, 1000);
+    // So basically if you *start* with a right position
+    // then stick to animating to another right position
+    // to do that, get the window width minus the width of your div:
+$("#coolDiv").animate({'right':($('body').innerWidth()-$('#coolDiv').width())}, 'slow');
+    // sorry that's so ugly!
+});
+</script>
+</head>
+<body>
+    <div style="" id="coolDiv">HELLO</div>
+</body>
+</html>

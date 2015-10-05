@@ -1,0 +1,5 @@
+domain = localhost/api.funnymiku.in
+
+Page Data = http://[domain]/v1.0/page-data.php?type=[type]&page=[page_no]
+Insert Data = http://[domain]/v1.0/insert.php?key=[yourkey]&title=[Title]&file=[filename]&by=[yourname]&type=[type of post]
+Post Data = http://[domain]/v1.0/page-data.php?postid=[post_id]

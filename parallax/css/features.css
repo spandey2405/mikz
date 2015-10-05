@@ -1,0 +1,80 @@
+.features
+            {
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size:16px;
+                line-height: 18px;
+                width:80%;
+                padding:10%;
+                padding-left:8%;
+                padding-top: 3%;
+                height:100%;
+                
+            }
+            .features h1
+            {
+        font-size: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        weight:200;
+        margin-top: 2%;
+        text-align: center;
+        padding:50px;
+            }
+            .features .left
+            {
+                float:left;
+                width:50%;
+                
+            }
+            .left .image
+            {
+                margin-left: 15px;
+                background:skyblue;
+                float:right;
+                border-radius: 50%;
+                -webkit-transition: -webkit-transform .8s ease-in-out;
+                transition: transform .8s ease-in-out;
+                width:20%;
+            }
+            .left .des{
+                width:75%;
+                float:left;
+                
+            }
+            .left .image:hover {
+            -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+            }
+            .features .right
+            {
+                float:right;
+                width:50%;
+            }
+           
+            .right .image
+            {
+                margin-right:  15px;
+                background:skyblue;
+                float:left;
+                border-radius: 50%;
+                -webkit-transition: -webkit-transform .8s ease-in-out;
+                transition: transform .8s ease-in-out;
+                width:20%;
+               
+            }
+            .right .des{
+                width:75%;
+                float:right;
+                
+            }
+            .right .image:hover {
+            -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+            }
+            ul li{
+                list-style-type: none;
+                text-align: justify;
+                height: 160px;
+            }
+

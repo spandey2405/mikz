@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+}
+
+section {
+	overflow: hidden; height: 993px;
+}
+
+#page1
+{
+    background-color: #1E2832;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed;
+    background-image: url("http://localhost/thinqbot.com/images/banner.jpg"), url("http://localhost/thinqbot.com/images/banner.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#page1 .text
+{
+        font-family: 'Raleway', sans-serif;
+        background-image: url('../images/caption.png');
+        background-size: cover;
+        font-size: 40px;
+        margin-top: 6%;
+        max-width: 50%;
+        padding:1%;
+        color:white;
+        float:left
+}
+#page1 .image
+{
+
+        background-image: url('../images/iamges1.png') ;
+        background-size:contain;
+        margin-top: 6%;
+        width: 20%;
+        height:70%;
+        padding:1%;
+        color:white;
+        float:right;
+        margin-right:15%;
+}
+
+#page1 h1 {
+        font-size: 40px;
+        
+
+}
+#page1 h2 {
+
+        font-size: 30px;
+
+}
+
+
+
+/*#page1 #mobilescreen
+{
+    width:300px;
+    height:500px;
+    background-image: url('../images/ms.jpg');
+    margin-top: 1%;
+    margin-left: 35%;
+    background-size: cover;
+    text-align: center;
+    
+}*/
+#page1 p {
+        position: relative; top: 200px; left: 350px;
+        width: 508px; margin: 0 0 30px 0;
+}
+#page1 p:nth-child(2) {
+        font-weight: bold;
+}
+#page2
+{
+    background-image: url('../images/page2bg.jpg');
+}
+#page2 h1 {
+        font-size: 30px;font-family: 'Roboto Condensed', sans-serif;margin-bottom: 20px;
+        margin-top: 2%;
+        text-align: center;
+    
+}
+#page2 p {
+        position: relative; top: 200px; left: 350px;
+        width: 508px; margin: 0 0 30px 0;
+}
+#page2 p:nth-child(2) {
+        font-weight: bold;
+}
+#page3
+{
+    background-image: url('../images/page3bg.jpg');
+}
+
+#page3 p {
+        position: relative; top: 200px; left: 350px;
+        width: 508px; margin: 0 0 30px 0;
+}
+#page3 p:nth-child(2) {
+        font-weight: bold;
+}
+
+#contact {
+    position:absolute;
+    right:2px;
+    bottom:2px;
+    width:270px;
+    font-size:12px;
+}
+#contact #button{
+    position:relative;
+    right:0;
+    bottom:0;
+    padding:0 0 0 200px;
+}
+#contact #button a{
+    padding:0 5px;
+    text-align:right;
+    background:green;
+    cursor:pointer;
+}
+#contact form{
+    border:1px solid #666;
+    background:#dfdfdf;
+    padding:10px;
+    display:none;
+}
+form label {float:left;width:40%;}
+form input[type=text] {float:left;width:50%;}
+form input[type=text] {float:left;width:50%;}

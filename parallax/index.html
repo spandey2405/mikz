@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Parallax Effect</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <link href="css/curtain.css" rel="stylesheet" type="text/css"/>
+        <link href="css/features.css" rel="stylesheet" type="text/css"/>
+        <script src="js/curtain.js" type="text/javascript"></script>
+
+        <script>
+            $(function () {
+    $('.curtains').curtain({
+        scrollSpeed: 1000
+    });
+});
+
+$(document).ready(function(){
+    $('#contact a').on('click',function(){
+        $('#contact form').slideToggle('slow');
+    });
+});
+
+</script>
+    </head>
+    <body>
+
+<ol class="curtains">
+    <li class="cover" id="page1"> 
+        <div class='text'>
+        <h1>Thinqbot Technologies</h1>
+        <h2>Make Your Home Smarter</h2>
+        <div id="mobilescreen"></div>
+        </div>
+        <div class="image"></div>
+       
+        
+    </li>
+    <li id="page3">
+
+        <div class='features'>
+            <h1>Features</h1>
+            <div class='left'>
+                <ul>
+                    <li>
+                        <img src='images/icon1.png' class='image'><div class='des'><b>SECURITY</b><br>
+Newton keeps your house fully secure using the data from motion sensors, cameras, room temperature, and such other sensors. Our algorithms eliminate false positives by providing an additional layer of intelligence to the sensors. Newton keeps track of your valuable objects, pets or kids.</div>
+                <br>
+                    </li>
+                    <li>
+                                     <img src='images/icon2.png' class='image'><div class='des'><b>SAVINGS</b><br>
+Newton knows when to power off the appliances not in use. Optimization algorithms analyze the energy consumption patterns and help conserve up to 40% of electricity consumption. It also negates any stand-by power consumption from the appliances.</div>
+     
+                    </li>
+                </ul>
+                        </div>  
+
+
+            <div class='right'>
+                <ul>
+                    <li>                <img src='images/icon3.png' class='image'><div class='des'><b>COMFORT</b><br>
+Newton integrates with the existing electrical layout and gives you universal control of all your electrical appliances. It transforms the way we interact with the physical objects around us by giving them a digital abstraction.</div>
+                <br></li>
+                    <li>                <img src='images/icon4.png' class='image'><div class='des'><b>LUXURY</b><br>
+Newton integrates with your social profile and delivers personalized suggestions based on your interests. Newton combines data from all your devices together, both 'smart' and 'dumb', that can be used to deliver actionable results for people and processes altogether.</div>
+                </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+
+    </li>
+    <li class="cover" id="page2">
+
+    </li>
+<!--    <li >
+        <ul>
+            <li class="step"> step1</li>  Add the class "step" to an element to  
+            <li class="step"> step2</li>  make a break at this point with keyboard controls  
+        </ul>
+    </li>-->
+</ol>
+
+    </body>
+</html>
