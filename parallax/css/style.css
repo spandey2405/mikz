@@ -18,15 +18,22 @@ section {
 }
 #page1 .text
 {
+        
         font-family: 'Raleway', sans-serif;
         background-image: url('../images/caption.png');
         background-size: cover;
         font-size: 40px;
         margin-top: 6%;
-        max-width: 50%;
+        max-width: 60%;
         padding:1%;
         color:white;
         float:left
+}
+#intro
+{
+    position: absolute;
+    left:-600px;
+    
 }
 #page1 .image
 {
@@ -131,3 +138,10 @@ section {
 form label {float:left;width:40%;}
 form input[type=text] {float:left;width:50%;}
 form input[type=text] {float:left;width:50%;}
+#intro-image
+{
+    position: absolute;
+    top:-1000px;
+    right:0;
+    
+}
